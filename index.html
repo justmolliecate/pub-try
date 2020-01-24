@@ -47,7 +47,7 @@ id: 'mapbox.light'
         l.bindPopup(out.join("<br />"));
     }
 }}).addTo(m);
-      var base = 'files/MTPublicLands_SHP.zip';
+      var base = 'files/MTPublicLands_SHP';
 		shp(base).then(function(data){
 		geo.addData(data);
 		});
